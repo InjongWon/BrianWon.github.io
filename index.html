@@ -320,6 +320,60 @@
             .skills-grid {
                 grid-template-columns: 1fr;
             }
+            
+            .profile-image {
+                width: 250px;
+                height: 250px;
+            }
+            
+            .intro h1 {
+                font-size: 2rem;
+            }
+            
+            .intro p {
+                font-size: 1rem;
+            }
+        }
+        
+        /* Tablet styles */
+        @media (max-width: 1024px) and (min-width: 769px) {
+            .profile-image {
+                width: 350px;
+                height: 350px;
+            }
+        }
+        
+        /* Large desktop styles */
+        @media (min-width: 1200px) {
+            .profile-image {
+                width: 500px;
+                height: 500px;
+            }
+            
+            body {
+                max-width: 1000px;
+            }
+        }
+        
+        /* Extra small mobile styles */
+        @media (max-width: 480px) {
+            .profile-image {
+                width: 200px;
+                height: 200px;
+            }
+            
+            .intro h1 {
+                font-size: 1.8rem;
+            }
+            
+            .contact-links {
+                gap: 10px;
+            }
+            
+            .icon {
+                width: 20px;
+                height: 20px;
+            }
         }
     </style>
 </head>
